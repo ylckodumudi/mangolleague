@@ -49,9 +49,7 @@ img {
   clear: both;
 }
 
-/**********************************/
-/******* 2.0 Content Styles *******/
-/**********************************/
+
 
 .pad-t-20 {
   padding-top: 20px;
@@ -371,9 +369,9 @@ header .logo {
   opacity: 0;
 
   -webkit-transition: all 0.3s ease-out;
-  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+
   transition: all 0.3s ease-out;
-  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+
 }
 
 .loaded #loader-wrapper {
@@ -792,7 +790,7 @@ h3:before {
   height: 25px;
   display: inline-block;
   content: "";
-  background: url(assets/images/logo.png);
+  background: url(../assets/images/logo.png);
   background-size: 25px;
   background-position: center center;
   vertical-align: middle;
