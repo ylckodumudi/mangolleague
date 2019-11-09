@@ -758,6 +758,10 @@ img[src*="000webhost"] {
     box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;*/
 }
 
+.upcoming-matches-home *{
+  box-sizing: content-box;
+}
+
 .datefixture {
   width: 100%;
   background: #fff;
@@ -800,16 +804,15 @@ h3:before {
 .match-fixture-single {
   width: 95%;
   margin: 0 auto 0;
-  padding: 0px 0;
-  background: rgb(253, 253, 253);
+  padding: 15px 0;
+  background: #fdfdfd;
   background: linear-gradient(90deg, #fc466b 0%, #040b2f 100%);
   border-radius: 5px;
   position: relative;
-  -webkit-box-shadow: rgba(51, 45, 49, 0.25) 0px 2px 5px;
-  -moz-box-shadow: rgba(51, 45, 49, 0.25) 0px 2px 5px;
   box-shadow: rgba(146, 113, 131, 0.8) 0px 4px 13px;
   color: #fff;
   margin-top: 6px;
+  height: 20px;
 }
 
 .match-fixture-single:after {
