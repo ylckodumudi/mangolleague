@@ -11,11 +11,7 @@
 html, body { height: 100%; }
 
 body {
-  background: #140f1d;
-  background: url(../assets/images/bg.png);
-
-  background-attachment: fixed;
-  background-position:top center;
+  background: #FFF;
   margin: 0;
   padding: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif; 
@@ -50,10 +46,3 @@ img {
 
 
 
-// COMPONENTS
-.Header{
-  // background: url(../assets/images/bg.png);
-  // background-size: cover;
-  // background-position: top center;
-
-}

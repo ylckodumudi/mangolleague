@@ -1,0 +1,25 @@
+
+:root {
+  // ---------- 01. COMMON THEME ---------------
+  // Colors Pallets
+  --White: #FFFFFF;
+  --Dark: #14111D;
+  --Primary: #E82150;
+}
+
+
+
+// COMPONENTS
+body{
+  background: var(--Dark);
+}
+.Header{
+    background: url(../assets/images/bg.png);
+    background-size: cover;
+    background-position: top center;
+  
+  }
+
+  .HomeContents{
+    background: var(--Dark);
+  }
