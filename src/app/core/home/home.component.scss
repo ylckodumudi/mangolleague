@@ -293,7 +293,7 @@ h3:before {
   line-height: 13px;
 }
 .recent-matches{margin-bottom:15px}
-. recent-matches:after{content:’-‘!important;}
+.recent-matches .match-fixture-single:after{content:'-' !important;}
 .home-team {
   width: 40%;
   margin: 0 auto;
