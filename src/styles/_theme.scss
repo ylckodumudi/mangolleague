@@ -103,13 +103,27 @@
 body{
   background: var(--Dark);
 }
-.TitleBar{
-    background: url(../assets/images/bg.png);
-    background-size: cover;
-    background-position: top center;
-  
-  }
+
 
   .HomeContents{
     background: var(--Dark);
+  }
+
+
+  .MatchBox:nth-child(1){
+    background: rgb(232,33,94);
+background: linear-gradient(90deg, rgba(232,33,94,1) 0%, rgba(220,4,163,0.38) 100%);
+  }
+  .MatchBox:nth-child(2){
+    background: rgb(0,81,152);
+    background: linear-gradient(90deg, rgba(0,81,152,1) 0%, rgba(156,235,182,0.31) 100%);
+  }
+  .MatchBox:nth-child(3){
+    background: #be2581;
+    background: linear-gradient(90deg, #be2581 0%, rgba(32, 242, 197, 0.77) 100%);
+
+  }
+  .MoreMathes{
+    background: rgb(255,83,95);
+background: linear-gradient(90deg, rgba(255,83,95,0.17) 0%, rgba(232,33,80,0.15) 100%);
   }
