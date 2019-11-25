@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-  path: '',
+  path: 'home',
   loadChildren: () => import('./home/home.module').then(x => x.HomeModule),
 },
 {
@@ -14,6 +14,10 @@ const routes: Routes = [
 {
   path: 'ml',
   loadChildren: () => import('./pages/pages.module').then(x => x.PagesModule),
+},
+{
+  path: '**',
+  redirectTo: 'home',
 }
 
 

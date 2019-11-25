@@ -49,3 +49,26 @@ img {
 
 
 
+
+.Header{
+  width: 100%;
+  display: block;
+  padding:30px 15px 15px;
+  height: 115px;
+
+.Logo{
+width: 110px;
+margin: 0 auto;
+display: block;
+img{
+    width: 100%;
+}
+}
+.PageTitle{
+font-size:34px;
+color:var(--White) !important;
+text-align: left;
+font-weight: bold;
+}   
+
+}
