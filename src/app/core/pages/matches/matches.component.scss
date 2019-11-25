@@ -37,13 +37,14 @@
     flex-flow: row wrap;
    
     .MatchBox{
-      width: 100%;
+      width: calc(100% - 16px);
       height: 102px;
       position: relative;
       border-radius: 5px;
       overflow: hidden;
       display: block;
-      margin-left: 7px;
+      margin: 0 auto;
+      margin-bottom: 8px;
       &:before{
         position: absolute;
       display: block;
@@ -64,25 +65,35 @@
           width: 100%;
           display: flex;
           flex-flow: row wrap;
+          justify-content: space-between;
+          padding: 10px 10px;
           h3{
             color: #fff;
             font-size: 16px;
+            width: calc(50% - 20px);
             
           }
-          h3:first-of-type:after{
-            width: 14px;
-            content: "vs";
-            height: 14px;
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 50px;
-            color: #ffffff;
-            font-size: 11px;
-            padding: 7px;
-            box-sizing: content-box;
-            line-height: 13px;
-            display: inline-block;
-            margin-left: 10px;
+          h3:nth-child(2){
+            text-align: right;
+      
           }
+         &:before{
+          width: 14px;
+          content: "vs";
+          height: 14px;
+          background: rgba(0, 0, 0, 0.3);
+          border-radius: 50px;
+          color: #ffffff;
+          font-size: 11px;
+          padding: 7px;
+          box-sizing: content-box;
+          line-height: 13px;
+          display: block;
+          margin-left: 10px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+         }
         }
         .DateAndTime{
      
@@ -102,12 +113,7 @@
         }
       }
     }
-    .MatchBox:last-of-type{
-      margin-right: 15px;
-       }
-       .MatchBox:first-of-type{
-        margin-left: 15px;
-         }
+
   
     .MatchBox:nth-child(1){
       background: rgb(232,33,94);
