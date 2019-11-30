@@ -20,14 +20,15 @@ const routes: Routes = [
         path: 'ml',
         loadChildren: () => import('./pages/pages.module').then(x => x.PagesModule),
       },
+      {
+        path: '',
+        redirectTo: 'home',
+      }
     ]
   },
 
 
-{
-  path: '**',
-  redirectTo: 'home',
-}
+
 
 
 ];

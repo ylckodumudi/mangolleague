@@ -22,7 +22,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig, 'my-app-name'),
+    // AngularFireModule.initializeApp(environment.firebaseConfig, 'MangolLeague'),
     AngularFirestoreModule, // Only required for database features
     AngularFireAuthModule, // Only required for auth features,
     AngularFireStorageModule // Only required for storage features
