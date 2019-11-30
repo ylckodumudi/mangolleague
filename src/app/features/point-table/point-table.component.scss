@@ -1,0 +1,155 @@
+
+// POINT TABLE 
+.point-table-main {
+    width: 100%;
+    margin: 0 auto 25px;
+  border-radius: 3px;
+  overflow:hidden;
+  }
+  
+  
+  .point-table-head {
+    width: 100%;
+    margin: 0px auto 0;
+    display: block;
+    padding: 10px 2px;
+    position: relative;
+    box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;
+    color: #fff;
+  }
+  
+  
+  
+  .point-table-head table {
+    width: 100%;
+  }
+  
+  .point-table-head-head table {
+    width: 100%;
+  }
+  
+  .point-table-head table tr td,
+  .point-table-head table th {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    width: 11%;
+  }
+  
+  .point-table-head table tr td:first-child,
+  .point-table-head table tr th:first-child {
+    width: 10%;
+    text-align: center;
+  }
+  
+  .point-table-head table tr td:nth-child(2),
+  .point-table-head table tr th:nth-child(2) {
+    width: 40%;
+    text-align: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-indent: 5px;
+  }
+  
+  .point-table-head table tr th:last-child {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 8px;
+  }
+  
+  .point-table {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    padding: 1px 0 0px;
+    /*background: #fff;*/
+    position: relative;
+    /*  -webkit-box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;
+      -moz-box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;
+      box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;*/
+    border-radius: 0px;
+    color: #333;
+  }
+  
+  
+  
+  .table-caption {
+    background: rgba(99, 40, 90, 0.4);
+    padding: 10px 5%;
+    width: 100%;
+    border-top: 3px solid rgba(49, 10, 42, 0.99);
+    display: block;
+    line-height: 16px;
+  }
+  
+  .table-caption h2 {
+    font-size: 16px;
+    display: block;
+    line-height: 18px !important;
+    color: #fff;
+    font-weight: lighter;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .point-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .point-table-head table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .point-table table tr td {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    padding: 5px 6px;
+    line-height: 15px;
+    width: 10%;
+    border: none;
+    background: #f1f8ee;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d9e9e2;
+  }
+  
+  .point-table table tr:last-child td {
+    background: #fff;
+  }
+  
+  .point-table table tr:nth-child(5n) td {
+    background: #fff;
+  }
+  
+  .point-table table tr td:first-child {
+    width: 10%;
+    text-align: center;
+  }
+  
+  .point-table table tr td:nth-child(2) {
+    width: 40%;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .point-table table tr td:last-child {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 8px;
+  }
+  
+  .point-table-logo {
+    width: 25px;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 0px;
+    vertical-align: middle;
+    margin-left: 0px;
+    display: none;
+  }
+  

@@ -2,7 +2,7 @@
 
 
 
-  .UpcomingMatches{
+  .AllMatches{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -39,6 +39,7 @@
           flex-flow: row wrap;
           justify-content: space-between;
           padding: 10px 10px;
+          
           h3{
             color: #fff;
             font-size: 16px;
@@ -61,12 +62,13 @@
           box-sizing: content-box;
           line-height: 13px;
           display: block;
-          margin-left: 10px;
           position: absolute;
           text-align: center;
           left: 50%;
           transform: translateX(-50%);
+          
          }
+      
         }
         .DateAndTime{
      
@@ -78,9 +80,9 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: rgb(20, 17, 29);
+    background:rgba(0, 0, 0, 0.15);
     color: var(--White);
-    padding: 2px 15px;
+    padding: 4px 15px;
     border-radius: 7px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -99,8 +101,38 @@
         
         }
       }
-    }
 
+      
+    }
+.Recent{
+  .Teams{
+   
+    position: relative;
+
+   &:before{
+    width: 50px !important;
+    content: "" !important;
+    height: 36px !important;
+    line-height: 13px;
+    padding: 0  10px!important;
+    top: 3px;
+    border-radius: 10px !important;
+    
+   }
+   .ScoreCard {
+    display: flex;
+    width: 50px;
+    position: absolute;
+    justify-content: space-between;
+    left: calc(50% - 25px);
+    top: 3px;
+    span{
+      font-size: 30px;
+      font-weight: bold;
+    }
+}
+  }
+}
   
  
   
