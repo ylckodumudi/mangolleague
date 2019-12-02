@@ -17,8 +17,8 @@ const routes: Routes = [
         loadChildren: () => import('./dashboard/dashboard.module').then(x => x.DashboardModule),
       },
       {
-        path: 'ml',
-        loadChildren: () => import('./pages/pages.module').then(x => x.PagesModule),
+        path: 'match',
+        loadChildren: () => import('./matches/matches.module').then(x => x.MatchesModule),
       },
       {
         path: '',

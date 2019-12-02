@@ -7,6 +7,55 @@
     display: flex;
     flex-flow: row wrap;
     margin-top: -30px;
+
+    .MatchWeekTitle{
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      h3 {
+        width: auto;
+        color: #FFF;
+        border-radius: 5px;
+        padding: 5px 0;
+        text-align: center;
+        margin: 0 auto 0;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding-left: 0;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 18px;
+      }
+      
+      h3:before {
+        width: 25px;
+        position: relative;
+        height: 25px;
+        display: inline-block;
+        content: "";
+        background: url(../../../assets/images/logo-white.png);
+        background-size: 25px;
+        background-position: center center;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      .datefixture {
+        color: #E91E63;
+        margin: 0;
+        font-size: 12px;
+        text-align: center;
+        display: block;
+        text-indent: 0;
+        margin: auto;
+    
+          
+      }
+      
+      }
+  
    
     .MatchBox{
       width: calc(100% - 20px);
@@ -15,14 +64,14 @@
       border-radius: 5px;
       display: block;
       margin: 0 auto;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
       &:before{
         position: absolute;
       display: block;
       height: 100%;
       width: 100%;
       content: '';
-      background:url(../../../../assets/images/theme/card-overlay.png);
+      background:url(../../../assets/images/theme/card-overlay.png);
       background-size: cover;
       background-position: center;
       z-index: 1;
