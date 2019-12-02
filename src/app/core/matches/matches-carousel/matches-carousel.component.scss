@@ -69,6 +69,32 @@
         }
       }
     }
+    .MoreMathes{
+      display: flex;
+      color: var(--White);
+      .ButtonFlex{
+      margin: auto;
+      display: flex;
+      .ButtonText{
+        margin: auto 0;
+      }
+      .Icon{
+        width: 15px;
+        height: 15px;
+        padding: 10px;
+        border-radius: 50px;
+        border:1px solid var(--Primary);
+        box-sizing: content-box;
+    
+        margin: auto 0;
+        margin-left: 5px;
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      }
+    }
     .MatchBox:last-of-type{
       margin-right: 15px;
        }

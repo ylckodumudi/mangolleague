@@ -110,88 +110,18 @@ body{
   }
 
 
-  .MatchBox:nth-child(1){
+  .MatchBox:nth-child(1n){
     background: rgb(232,33,94);
 background: linear-gradient(90deg, rgba(232,33,94,1) 0%, rgba(220,4,163,0.38) 100%);
   }
-  .MatchBox:nth-child(2){
+  .MatchBox:nth-child(2n){
     background: rgb(0,81,152);
     background: linear-gradient(90deg, rgba(0,81,152,1) 0%, rgba(156,235,182,0.31) 100%);
   }
-  .MatchBox:nth-child(3){
+  .MatchBox:nth-child(3n){
     background: #900f45;
     background: linear-gradient(90deg, #900f45 0%, rgba(35, 51, 112, 0.77) 100%);
 
 
   }
 
-  
-  .MatchBox:nth-child(4){
-    background: rgb(232,33,94);
-background: linear-gradient(90deg, rgba(232,33,94,1) 0%, rgba(220,4,163,0.38) 100%);
-  }
-  .MatchBox:nth-child(5){
-    background: rgb(0,81,152);
-    background: linear-gradient(90deg, rgba(0,81,152,1) 0%, rgba(156,235,182,0.31) 100%);
-  }
-  .MatchBox:nth-child(6){
-    background: #be2581;
-    background: linear-gradient(90deg, #be2581 0%, rgba(32, 242, 197, 0.77) 100%);
-
-  }
-
-
-
-
-  
-  .MatchBox:nth-child(7){
-    background: rgb(232,33,94);
-background: linear-gradient(90deg, rgba(232,33,94,1) 0%, rgba(220,4,163,0.38) 100%);
-  }
-  .MatchBox:nth-child(8){
-    background: rgb(0,81,152);
-    background: linear-gradient(90deg, rgba(0,81,152,1) 0%, rgba(156,235,182,0.31) 100%);
-  }
-  .MatchBox:nth-child(9){
-    background: #be2581;
-    background: linear-gradient(90deg, #be2581 0%, rgba(32, 242, 197, 0.77) 100%);
-
-  }
-
-  
-  
-  .MatchBox:nth-child(10){
-    background: rgb(232,33,94);
-background: linear-gradient(90deg, rgba(232,33,94,1) 0%, rgba(220,4,163,0.38) 100%);
-  }
-  .MatchBox:nth-child(11){
-    background: rgb(0,81,152);
-    background: linear-gradient(90deg, rgba(0,81,152,1) 0%, rgba(156,235,182,0.31) 100%);
-  }
-  .MatchBox:nth-child(12){
-    background: #be2581;
-    background: linear-gradient(90deg, #be2581 0%, rgba(32, 242, 197, 0.77) 100%);
-
-  }
-
-
-
-
-  
-  .MatchBox:nth-child(13){
-    background: rgb(232,33,94);
-background: linear-gradient(90deg, rgba(232,33,94,1) 0%, rgba(220,4,163,0.38) 100%);
-  }
-  .MatchBox:nth-child(14){
-    background: rgb(0,81,152);
-    background: linear-gradient(90deg, rgba(0,81,152,1) 0%, rgba(156,235,182,0.31) 100%);
-  }
-  .MatchBox:nth-child(15){
-    background: #be2581;
-    background: linear-gradient(90deg, #be2581 0%, rgba(32, 242, 197, 0.77) 100%);
-
-  }
-  .MoreMathes{
-    background: rgb(255,83,95);
-background: linear-gradient(90deg, rgba(255,83,95,0.17) 0%, rgba(232,33,80,0.15) 100%);
-  }

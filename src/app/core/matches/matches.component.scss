@@ -14,7 +14,9 @@
       margin-top: 10px;
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-between;
+      justify-content: center;
+      // display: none; 
+      // ^ not permanent
       h3 {
         width: auto;
         color: #FFF;
@@ -43,17 +45,7 @@
         vertical-align: middle;
         margin-right: 5px;
       }
-      .datefixture {
-        color: #E91E63;
-        margin: 0;
-        font-size: 12px;
-        text-align: center;
-        display: block;
-        text-indent: 0;
-        margin: auto;
-    
-          
-      }
+  
       
       }
   
@@ -154,7 +146,13 @@
 
       
     }
+    .ScoreCard{
+      display: none;
+    }
 .Recent{
+  height: 80px;
+ .MatchContent{
+   padding-top: 30px;
   .Teams{
    
     position: relative;
@@ -170,7 +168,7 @@
     
    }
    .ScoreCard {
-    display: flex;
+    display: flex !important;
     width: 50px;
     position: absolute;
     justify-content: space-between;
@@ -181,10 +179,12 @@
       font-weight: bold;
     }
 }
-  }
+  }}
 }
   
  
   
    
   }
+
+  
