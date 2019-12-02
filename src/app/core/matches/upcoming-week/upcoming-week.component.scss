@@ -146,6 +146,9 @@
   
         
       }
+      .ScoreCard{
+        display: none;
+      }
   .Recent{
     .Teams{
      
@@ -162,7 +165,7 @@
       
      }
      .ScoreCard {
-      display: flex;
+      display: flex !important;
       width: 50px;
       position: absolute;
       justify-content: space-between;
